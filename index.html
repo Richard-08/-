@@ -165,9 +165,9 @@
         $('#showSlider').on('click', function () {
             $('#startpage').addClass('d-none');
         });
-        $('#showSlider').on('click', setTimeout((function () {
+        $('#showSlider').on('click', function () {
             $('#slides').removeClass('d-none');
-        }), 5000));
+        });
     </script>
 </body>
 
