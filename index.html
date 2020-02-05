@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-xs-sm-md-lg-xl">
+        <div class="carousel slide d-none" data-ride="carousel" id="slides">
+
+            <div class="carousel-indicators d-none d-sm-none d-md-none d-lg-flex">
+                <div class="pagination-wrap">
+                    <div data-target="#slides" data-slide-to="0" class="pagination active">
+                        <img src="preview/slider_1pre.jpg" alt="1" class="rounded">
+                        <div>
+                            <p>Акция действует с 01.07.18</p>
+                            <p>Этот текст добавлен для демонстрации на странице</p>
+                        </div>
+                    </div>
+
+                    <div data-target="#slides" data-slide-to="1" class="pagination">
+                        <img src="preview/slider_2pre.jpg" alt="2" class="rounded">
+                        <div>
+                            <p>Акция действует с 01.07.18</p>
+                            <p>Этот текст добавлен для демонстрации на странице</p>
+                        </div>
+                    </div>
+
+                    <div data-target="#slides" data-slide-to="2" class="pagination">
+                        <img src="preview/slider_3pre.jpg" alt="3" class="rounded">
+                        <div>
+                            <p>Акция действует с 01.07.18</p>
+                            <p>Этот текст добавлен для демонстрации на странице</p>
+                        </div>
+                    </div>
+
+                    <div data-target="#slides" data-slide-to="3" class="pagination">
+                        <img src="preview/slider_4pre.jpg" alt="4" class="rounded">
+                        <div>
+                            <p>Акция действует с 01.07.18</p>
+                            <p>Этот текст добавлен для демонстрации на странице</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-indicators d-lg-none">
+                <div class="carousel-indicators">
+                    <div data-target="#slides" data-slide-to="0" class="active toggle"></div>
+                    <div data-target="#slides" data-slide-to="1" class="toggle"></div>
+                    <div data-target="#slides" data-slide-to="2" class="toggle"></div>
+                    <div data-target="#slides" data-slide-to="3" class="toggle"></div>
+                </div>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="slides/slider_1.jpg" alt="1" class="d-none d-sm-none d-md-none d-lg-none d-xl-block">
+                    <img src="slides/slide1-md.png" alt="1" class="d-none d-sm-none d-md-block d-lg-block d-xl-none">
+                    <img src="slides/slider_1min.jpg" alt="1"
+                        class="d-block w-100 d-block d-sm-block d-md-none d-lg-none d-xl-none">
+                    <div class="caption">
+                        <h1>Этот текст добавлен для демонстрации на странице</h1>
+                        <h4 class="d-none d-sm-none d-md-inline">Акция действует с 01.07.18 по 31.07.18</h4>
+                        <h4 class="d-inline d-sm-inline d-md-none">Тест на внимательность</h4>
+                        <div>
+                            <button type="button" class="btn"
+                                style="background-color: #ff891e; color: white;">ПОДРОБНЕЕ</button>
+                            <button type="button" class="btn d-none d-sm-none d-md-inline"
+                                style="background-color: white;">ВСЕ АКЦИИ</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="slides/slider_2.jpg" alt="2" class="d-none d-sm-none d-md-none d-lg-none d-xl-block">
+                    <img src="slides/slide2-md.png" alt="2" class="d-none d-sm-none d-md-block d-lg-block d-xl-none">
+                    <img src="slides/slider_2min.jpg" alt="2"
+                        class="d-block w-100 d-block d-sm-block d-md-none d-lg-none d-xl-none">
+                    <div class="caption">
+                        <h1>Этот текст добавлен для демонстрации на странице</h1>
+                        <h4 class="d-none d-sm-none d-md-inline">Акция действует с 01.07.18 по 31.07.18</h4>
+                        <h4 class="d-inline d-sm-inline d-md-none">Тест на внимательность</h4>
+                        <div>
+                            <button type="button" class="btn"
+                                style="background-color: #ff891e; color: white;">ПОДРОБНЕЕ</button>
+                            <button type="button" class="btn d-none d-sm-none d-md-inline"
+                                style="background-color: white;">ВСЕ АКЦИИ</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="slides/slider_3.jpg" alt="3" class="d-none d-sm-none d-md-none d-lg-none d-xl-block">
+                    <img src="slides/slide3-md.png" alt="3" class="d-none d-sm-none d-md-block d-lg-block d-xl-none">
+                    <img src="slides/slider_3min.jpg" alt="3"
+                        class="d-block w-100 d-block d-sm-block d-md-none d-lg-none d-xl-none">
+                    <div class="caption">
+                        <h1>Этот текст добавлен для демонстрации на странице</h1>
+                        <h4 class="d-none d-sm-none d-md-inline">Акция действует с 01.07.18 по 31.07.18</h4>
+                        <h4 class="d-inline d-sm-inline d-md-none">Тест на внимательность</h4>
+                        <div>
+                            <button type="button" class="btn"
+                                style="background-color: #ff891e; color: white;">ПОДРОБНЕЕ</button>
+                            <button type="button" class="btn d-none d-sm-none d-md-inline"
+                                style="background-color: white;">ВСЕ АКЦИИ</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="slides/slider_4.jpg" alt="4" class="d-none d-sm-none d-md-none d-lg-none d-xl-block">
+                    <img src="slides/slide4-md.png" alt="4" class="d-none d-sm-none d-md-block d-lg-block d-xl-none">
+                    <img src="slides/slider_4min.jpg" alt="4"
+                        class="d-block w-100 d-block d-sm-block d-md-none d-lg-none d-xl-none">
+                    <div class="caption">
+                        <h1>Этот текст добавлен для демонстрации на странице</h1>
+                        <h4 class="d-none d-sm-none d-md-inline">Акция действует с 01.07.18 по 31.07.18</h4>
+                        <h4 class="d-inline d-sm-inline d-md-none">Тест на внимательность</h4>
+                        <div>
+                            <button type="button" class="btn"
+                                style="background-color: #ff891e; color: white;">ПОДРОБНЕЕ</button>
+                            <button type="button" class="btn d-none d-sm-none d-md-inline"
+                                style="background-color: white;">ВСЕ АКЦИИ</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a class="carousel-control-prev d-none d-sm-none d-md-none d-lg-flex justify-content-start" href="#slides"
+                role="button" data-slide="prev">
+                <span><img src="preview/prev.png" alt="prev"></span>
+            </a>
+            <a class="carousel-control-next d-none d-sm-none d-md-none d-lg-flex justify-content-end" href="#slides"
+                role="button" data-slide="next">
+                <span><img src="preview/next.png" alt="next"></span>
+            </a>
+        </div>
+    </div>
+
+
+    <div id="startpage">
+        <a href="#" class="btn" style="background-color: #ff891e; color: white;" id="showSlider">НАЧАТЬ
+            ДЕМОНСТРАЦИЮ</a>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <script>
+        $('#showSlider').on('click', function () {
+            $('#startpage').addClass('d-none');
+        });
+        $('#showSlider').on('click', setTimeout((function () {
+            $('#slides').removeClass('d-none');
+        }), 5000));
+    </script>
+</body>
+
+</html>

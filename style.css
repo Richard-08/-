@@ -1,0 +1,187 @@
+body {
+    font-weight: lighter;
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#startpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c4cdd6;
+    width: 100%;
+    height: 100vh;
+}
+
+.pagination-wrap {
+    display: flex;
+}
+
+.carousel-indicators .pagination {
+    padding: 6px;
+    margin: 17px 8.25px;
+    background-color: rgba(103, 107, 112, 0.4);
+    border-radius: 5px;
+    width: 276px;
+    height: 69px;
+    display: flex;
+    transition: all 0.3s ease;
+}
+
+.carousel-indicators .pagination:hover {
+    background-color: rgba(25, 26, 27, 0.4);
+}
+
+.carousel-indicators div p {
+    margin: 0 8px;
+    color: white;
+}
+
+.carousel-indicators div p:first-child {
+    font-size: 11px;
+}
+
+.carousel-indicators div p:last-child {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.toggle {
+    border: 1px solid white;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 27px 9px;
+    transition: all 0.3s ease;
+}
+
+.toggle:hover {
+    background-color: white
+}
+
+.caption h1, .caption h4 .caption div {
+    margin: 0;
+}
+
+.caption {
+    position: absolute;
+    /* top: 34%; */
+    bottom: 34%;
+    left: 45.6%;
+    width: 560px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 155px;
+    height: 47px;
+    margin-right: 22px;
+}
+
+#showSlider {
+    width: 251px;
+    height: 47px;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 1170px) {
+    .carousel-indicators .pagination {
+        padding: 6px;
+        margin: 24px 7.5px;
+        width: 227px;
+        height: 58px;
+    }
+    .carousel-indicators div p {
+        margin: 0 8px;
+    }
+    .carousel-indicators div p:first-child {
+        font-size: 8px;
+    }
+    .carousel-indicators div p:last-child {
+        font-size: 10px;
+    }
+    .caption {
+        position: absolute;
+        bottom: 39.4%;
+        left: 48.7%;
+        width: 467px;
+        height: 175px;
+    }
+    .btn {
+        width: 131px;
+        height: 40px;
+        margin-right: 15px;
+    }
+    .caption h1 {
+        font-size: 35px;
+    }
+    .caption h4 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 870px) {
+    .caption {
+        width: 450px;
+        height: 168px;
+    }
+    .caption h1 {
+        font-size: 30px;
+    }
+    .caption h4 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .caption {
+        text-align: center;
+        bottom: 31.75%;
+        left: 28.4%;
+        width: 331px;
+        height: 147px;
+    }
+    .btn {
+        width: 130px;
+        height: 39px;
+    }
+    .caption h1 {
+        font-size: 25px;
+    }
+    .caption h4 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 600px) {
+    .caption {
+        justify-content: center;
+        width: 200px;
+        height: 120px;
+    }
+    .caption h1 {
+        font-size: 20px;
+    }
+    .caption h4 {
+        font-size: 15px;
+    }
+    .toggle {
+        margin: 10px 9px;
+    }
+    .btn {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media (max-width: 360px) {
+    .caption h1 {
+        font-size: 15px;
+    }
+    .caption h4 {
+        font-size: 10px;
+    }
+}
